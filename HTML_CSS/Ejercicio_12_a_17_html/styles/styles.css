@@ -1,0 +1,83 @@
+
+
+*{
+    font-family: "Noto Sans Mono", monospace;
+}
+
+h1, h2{
+    font-family: fantasy;
+    color: white;
+    text-shadow: 5px 0 5px rgb(0, 0, 0);
+}
+
+
+.parrafo{
+    display: flex;
+    justify-content: center;
+}
+.parrafo p {
+    background-color: #343a40;
+    color: white;
+}
+
+.formulario {
+    color: #ffffff;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #343a40;
+}
+
+.body-register{
+    background-color: #0e1318;
+}
+
+.body{
+text-align: center;
+background-color: #0e1318;
+}
+.head{
+    padding: 2vh;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-container td a{
+    font-size: small;
+}
+
+.table-container {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.table{
+    max-width:  60vw;
+    text-align: left;
+    background-color: rgb(233, 233, 233);
+}
+
+.table-container td:hover{
+    font-size: 110%;
+}
+.table-container td a:hover{
+    font-size: 101%;
+}
+
+h1:hover, h2:hover {
+    font-weight: 900;
+    transition: 0.2s;
+    color: #5a5a5a;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),0 0 30px #9e9e9e;
+}
+
+.table-container [scope=col]:hover{
+    text-shadow: 0 0 10px rgb(219, 219, 219), 0 0 20px rgba(255, 255, 255, 1);
+}

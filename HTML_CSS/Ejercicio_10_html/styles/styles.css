@@ -1,0 +1,62 @@
+#titulo {
+    color: #367e7f;
+}
+
+p strong {
+    color: red;
+}
+
+p .destacado{
+    color: #f3a83b;
+}
+
+#subtitulo{
+    color: #0026f5;
+}
+
+p a{
+   color: #eb3223; 
+}
+
+p em {
+    color: #0026f5;
+}
+
+p .especial {
+    color: #761d7d;
+}
+
+tr .especial {
+    color: #f3a83b;
+}
+
+th {
+    color: red;
+}
+
+tr td {
+    color: green;
+}
+
+td strong {
+    color: #f3a83b;
+}
+
+
+table,td, th,table .especial {
+    border: solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+#adicional p{
+    color: #7b7a1f;
+}
+
+#adicional p #especial {
+    color: deeppink;
+}
+
+#adicional p a{
+    color: green;
+}

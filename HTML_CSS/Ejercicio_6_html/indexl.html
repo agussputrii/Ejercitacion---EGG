@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <h1>Registrar usuario</h1>
+
+    <div id="formulario">
+        <form action="form" method="get">
+            <label for="">Nombre de usuario</label><br>
+                <input type="text" required maxlength="16">
+            <label for="">Contraseña</label><br>
+                <input type="password" required><br>
+            <label for="">Edad (en numeros)</label>
+                <input type="number" required><br>
+            <label for="">Fecha de nacimiento</label>
+                <input type="date"><br><br>
+            <label for="sex">Sexo</label><br>
+                <input type="radio" id="hombre" name="sexo" value="1">
+            <label for="hombre">Hombre</label><br>
+                <input type="radio" id="mujer" name="sexo" value="2">
+            <label for="mujer">Mujer</label><br>
+                <input type="radio" id="no_especificado" name="sexo" value="3">
+            <label for="no_especificado">Prefiero no decirlo</label><br><br>
+            <label>Pais nacimiento del usuario</label> <br>
+                <select name="pais"> 
+                    <option>Argentina</option> 
+                    <option>Brasil</option> 
+                    <option>Bolivia</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Ecuador</option>
+                    <option>Paraguay</option>
+                    <option>Peru</option>
+                    <option>Uruguay</option>
+                    <option>Venezuela</option>
+                </select>
+            <br><br>
+            <input type="submit">
+            <input type="reset">                
+        </form>
+    </div>
+
+</body>
+</html>
