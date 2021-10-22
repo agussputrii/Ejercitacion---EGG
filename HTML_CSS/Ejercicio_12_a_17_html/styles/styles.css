@@ -37,6 +37,13 @@ h1, h2{
     background-color: #0e1318;
 }
 
+.h1_reg{
+font-size: 9vh;
+text-align: center;
+justify-content: center;
+padding-top: 80px;
+}
+
 .body{
 text-align: center;
 background-color: #0e1318;
